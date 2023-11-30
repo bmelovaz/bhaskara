@@ -13,7 +13,6 @@ function calcularBhaskara(a, b, c){
         const x2 = (- b + Math.sqrt(delta)) / (2 * a)
         console.log('A equação possui duas raizes reais')
     } 
-
 }
 
 const rl = readline.createInterface({
@@ -34,7 +33,6 @@ rl.question('Informe o valor de A: ', (a) => {
             } else {
                 console.log('Por favor insira coeficientes válidos')
             }
-
 
             rl.close()
         })
