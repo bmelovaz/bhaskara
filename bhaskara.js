@@ -29,7 +29,12 @@ rl.question('Informe o valor de A: ', (a) => {
             const valorB = parseFloat(b)
             const valorC = parseFloat(c)
 
-            console.log(a)
+            if(!isNaN (a) && !isNaN (b) && !isNaN (c)){
+                calcularBhaskara(a, b, c)  
+            } else {
+                console.log('Por favor insira coeficientes válidos')
+            }
+
 
             rl.close()
         })
