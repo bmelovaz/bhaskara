@@ -1,3 +1,4 @@
+// Código para obter o cálculo de Bhaskara
 const readline = require('readline')
 
 function calcularBhaskara(a, b, c){
@@ -28,7 +29,7 @@ rl.question('Informe o valor de A: ', (a) => {
             const valorB = parseFloat(b)
             const valorC = parseFloat(c)
 
-            if(!isNaN (a) && !isNaN (b) && !isNaN (c)){
+            if (!isNaN (a) && !isNaN (b) && !isNaN (c)){
                 calcularBhaskara(a, b, c)  
             } else {
                 console.log('Por favor insira coeficientes válidos')
